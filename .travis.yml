@@ -1,0 +1,8 @@
+language: rust
+rust:
+  - stable
+cache: 
+  cargo: true
+  npm: true
+services:
+  - postgresql
